@@ -82,8 +82,14 @@ main {
 }
 
 table {
-    margin-top: 16px;
     border-collapse: collapse; /* remove o espaço entre as colunas e linhas */
+}
+
+table caption {
+    margin-bottom:16px;
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration: underline;
 }
 
 td, th {
