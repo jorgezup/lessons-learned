@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Fruktur&family=Open+Sans:ital,wght@0,300;0,400;1,700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -5,16 +7,141 @@
 }
 
 body {
-    background-color: rgb(253, 251, 251)
+    background-color: rgb(253, 251, 251);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
 }
 
 #container {
     width: 100%;
     max-width: 1366px;
     max-height: 768px;
+
+    margin: 0 auto;
 }
 
 #cabecalho {
     position: fixed;
     top: 0;
+    background-color: antiquewhite;
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+#cabecalho h1 {
+    font-family: 'Fruktur', cursive;
+    font-size: 64px;
+    color: rgba(65, 85, 234, .8);
+    text-align: center;
+}
+
+nav {
+    margin: 100px 0 20px;
+    text-align: center;
+    border-top: 1px solid #666;
+    border-bottom: 1px solid #666;
+}
+
+nav > ul > li {
+    display: inline-block;
+    margin-right: 120px;
+    line-height:40px;
+    padding: 8px;
+
+}
+
+nav ul li a {
+    color: #444;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: rgba(65, 85, 234, .8);
+}
+
+main {
+    padding: 0 40px;
+}
+
+#minha_foto {
+    border-radius: 20px;
+    height: 400px;
+}
+
+#lessons {
+    margin: 20px 0;
+}
+
+#lessons ol {
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
+
+#lessons ul {
+    margin-left: 50px;
+}
+
+table {
+    margin-top: 16px;
+    border-collapse: collapse; /* remove o espaço entre as colunas e linhas */
+}
+
+td, th {
+    border: 1px solid #777;
+    padding: .6rem;
+    text-align: left;
+}
+
+tr:hover {
+    background-color: rgba(0, 0, 0, .35)
+}
+
+
+#conteudo {
+    padding: 20px;
+    letter-spacing: .2em;
+    line-height: 1.4em;;
+}
+
+#link_externo {
+    background-color: #141415;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+#link_externo p {
+    color:rgb(253, 251, 251);
+}
+
+#link_externo a {
+    color: red;
+}
+
+#containerPosicionamento {
+    overflow: auto;
+    border: 1px solid #141415;
+    margin: 20px 0;
+
+}
+
+.lado-esquerdo {
+    float: left;
+    width: 50%;
+    color: rebeccapurple;
+}
+.lado-direito {
+    float: right;
+    width: 50%;
+    color: greenyellow;
+
+}
+
+footer {
+    background: #141415;
+    text-align: center;
+}
+
+footer span {
+    color:rgb(253, 251, 251);
+    font-size: 12px;
 }
